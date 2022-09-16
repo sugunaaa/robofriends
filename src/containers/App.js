@@ -1,8 +1,8 @@
 import React,{Component} from "react";
-import CardList from "./CardList";
-import { robots } from "./robots";
-import Searchbox from "./Searchbox.js";
-import Scroll from './Scroll';
+import CardList from "../components/CardList";
+import { robots } from "../robots";
+import Searchbox from "../components/Searchbox.js";
+import Scroll from '../components/Scroll';
 import './App.css'
 class App extends Component{
     constructor(){
